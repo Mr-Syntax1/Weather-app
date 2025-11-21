@@ -1,6 +1,6 @@
 # 🌤️ Weather App
 
-🚀 **Live Demo:** [Try it Online!](https://Mr-Syntax1.github.io/weather-app/)  
+🚀 **Live Demo:** [Try it Online!](https://mr-syntax1.github.io/Weather-app/)  
 
 ---
 
@@ -40,4 +40,4 @@ It fetches real-time weather data from **OpenWeatherMap API** and shows:
 1️⃣ Clone this repository:
 
 ```bash
-git clone https://github.com/Mr-Syntax1/weather-app.git
+git clone https://mr-syntax1.github.io/Weather-app.git
