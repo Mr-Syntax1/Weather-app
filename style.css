@@ -1,21 +1,31 @@
+@font-face {
+  font-family: "vazirmatn";
+  src: url("./font/Vazirmatn-Black.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #5cbce9;
+    padding: 0;
+    font-family: 'vazirmatn', sans-serif;
+    background-color: #0b63a6;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100svh;
+    height: auto;
 }
 
 .container{
-    width: 75%;
+    width: 80%;
     height: 50%;
-    max-width: 800px;
-    background-color: rgba(255, 255, 255, 0.288);
+    max-width: 900px;
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.25);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
     text-align: center;
 }
 
@@ -23,7 +33,9 @@ body{
   font-size: 1.6rem;
   color: rgb(172, 0, 0);
   font-weight: bold;
-}form {
+}
+
+form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,12 +53,14 @@ form input[type="text"] {
     color: #333;
     transition: all 0.3s ease;
     width: 250px;        /* اندازه استاندارد */
-    max-width: 90%;      /* در موبایل بیرون نزنه */
+    max-width: 90%;  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-family: sans-serif;
 }
 
 form input[type="text"]:focus {
     outline: none;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
 form input[type="submit"] {
@@ -55,9 +69,11 @@ form input[type="submit"] {
     border-radius: 5px;
     background-color: #333;
     color: #fff;
-    font-size: 1.1rem;
     cursor: pointer;
+    font-size: 1.1rem;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in-out;
+    font-family: 'vazirmatn', sans-serif;
 }
 
 form input[type="submit"]:hover {
@@ -66,7 +82,7 @@ form input[type="submit"]:hover {
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
     color: #333;
     margin-bottom: 30px;
@@ -110,25 +126,99 @@ h1{
     padding: 20px;
     border-radius: 5px;
     margin: 10px;
+    cursor: pointer;
     min-height: 45px;
+    transition: all 0.3s ease;
     background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-
-@media screen and (max-width: 600px) {
-    .container{
-        width: 100%;
-    }
-    
+.details div:hover{
+    scale: calc(1.03);
 }
-/* ============================= */
-/*     INPUT + SUBMIT RWD        */
-/* ============================= */
 
-/* ⭐ موبایل کوچک */
+
+/* پیش‌بینی هفتگی شروع*/
+.weekly-forecast {
+    margin-top: 35px;
+}
+
+.weekly-forecast h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    overflow-x: auto;
+    padding: 10px;
+    scroll-behavior: smooth;
+}
+
+.forecast-card {
+    flex: 0 0 110px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    padding: 12px 8px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    backdrop-filter: blur(4px);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.forecast-card:hover {
+    transform: translateY(-5px);
+}
+
+.forecast-card .day {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+    color: #222;
+}
+
+.forecast-card img {
+    width: 60px;
+    height: 60px;
+}
+
+.forecast-card .temp {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 4px 0;
+}
+
+.forecast-card .desc {
+    font-size: 0.9rem;
+    color: #444;
+    line-height: 1.2;
+}
+
+/* اسکرول بار زیباتر */
+.forecast-container::-webkit-scrollbar {
+    height: 10px;
+}
+
+.forecast-container::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+}
+
+.forecast-container::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.5);
+    border-radius: 10px;
+}
+
+/* پیش‌بینی هفتگی پایان*/
+
+
+/*  موبایل کوچک */
 @media (max-width: 480px) {
-  
   form {
     flex-direction: column;
     width: 100%;
@@ -136,14 +226,14 @@ h1{
   }
 
   form input[type="text"] {
-    width: 100%;
+    width: 75%;
     font-size: 1rem;
     padding: 12px;
     border-radius: 8px;
   }
 
   form input[type="submit"] {
-    width: 100%;
+    width: 75%;
     padding: 12px;
     font-size: 1.1rem;
     border-radius: 8px;
@@ -152,8 +242,12 @@ h1{
 }
 
 
-/* ⭐ موبایل متوسط */
+/*  موبایل متوسط */
 @media (max-width: 768px) {
+
+  body {
+    align-items: flex-start;
+  }
 
   form {
     gap: 10px;
@@ -168,10 +262,19 @@ h1{
     font-size: 1.1rem;
     padding: 12px 18px;
   }
+  .forecast-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .container {
+    width: 100%;
+  }
 }
 
 
-/* ⭐ تبلت */
+/*  تبلت */
 @media (max-width: 1024px) {
 
   form input[type="text"] {
@@ -181,5 +284,10 @@ h1{
 
   form input[type="submit"] {
     font-size: 1.15rem;
+  }
+  .forecast-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 }
