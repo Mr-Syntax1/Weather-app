@@ -72,7 +72,7 @@
     }
 }
 
-/* ===== اسپینر فعلی شما (نیازی به تغییر نیست) ===== */
+/* ===== spinner css  ===== */
 .loader {
     width: 48px;
     height: 48px;
@@ -117,3 +117,4 @@
     margin: 15px 0;
     border: 2px solid #ffcccc;
 }
+
