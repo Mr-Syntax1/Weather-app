@@ -133,7 +133,7 @@ function updateWeeklyForecast(forecastData) {
     card.innerHTML = `
       <div class="day">${day}</div>
       <img src="https://openweathermap.org/img/wn/${data.icon}@2x.png">
-      <div class="temp">${Math.round(data.max)}° / ${Math.round(data.min)}°</div>
+      <div class="temp" dir="ltr">${Math.round(data.max)}° / ${Math.round(data.min)}°</div>
       <div class="desc">${data.desc}</div>
     `;
     container.appendChild(card);
