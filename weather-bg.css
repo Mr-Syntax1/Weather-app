@@ -13,6 +13,10 @@
   background: linear-gradient(to left, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.rtl{
+  direction: rtl;
+}
+
 /* ===== Spinner Overlay ===== */
 .loader-overlay {
     position: fixed;
