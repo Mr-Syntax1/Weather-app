@@ -2,7 +2,7 @@
 
 🚀 **Live Demo:** [Try it Online!](https://mr-syntax1.github.io/Weather-app/)  
 
-<img width="1279" height="877" alt="Screenshot 2025-12-31 030157" src="https://github.com/user-attachments/assets/b498a823-8efe-40e5-a410-9f7660830d3b" />
+<img width="1231" height="893" alt="Screenshot 2025-12-31 030356" src="https://github.com/user-attachments/assets/849fdda5-5a21-4614-9096-d2965e3baa14" />
 
 ---
 
