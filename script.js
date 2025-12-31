@@ -72,7 +72,7 @@ async function getWeatherData(cityValue) {
     descEl.textContent = description;
 
     weatherDataEl.querySelector(".details").innerHTML = `
-      <div>🌡️ دمای احساسی: ${Math.round(currentData.main.feels_like)}°C</div>
+      <div>🌡️ دمای احساسی: <span dir="ltr">${Math.round(currentData.main.feels_like)}°C </span></div>
       <div>💧 رطوبت: ${currentData.main.humidity}%</div>
       <div>💨 سرعت باد: ${currentData.wind.speed} m/s</div>
     `;
@@ -143,4 +143,3 @@ function updateWeeklyForecast(forecastData) {
     container.appendChild(card);
   });
 }
-
