@@ -1,7 +1,15 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';//استایل های پیشفرض
-// import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
+
+// تنظیم آیکون پیش‌فرض
+delete (L.Icon.Default.prototype as any)._getIconUrl;
+L.Icon.Default.mergeOptions({
+    iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+    iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+});
 
 interface WeatherMapProps {
     lat: number;
@@ -26,9 +34,7 @@ const WeatherMap: React.FC<WeatherMapProps> = ({ lat, lon, cityName, temperature
                 <Marker position={[lat, lon]}>
                     <Popup>
                         <div className="text-center">
-                            <span className="text-lg block">{cityName}
-                            </span>
-
+                            <span className="text-lg block">{cityName}</span>
                             <span className="text-md text-blue-600 dark:text-blue-400">
                                 {Math.round(temperature)}°C
                             </span>
