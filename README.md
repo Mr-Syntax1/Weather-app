@@ -48,16 +48,17 @@
 
 ## 🛠️ Built With
 
-| Category | Technology |
-|----------|------------|
-| **Framework** | React 18.3.1 |
-| **Language** | TypeScript 5.5.3 |
-| **Build Tool** | Vite 5.4.0 |
-| **Styling** | Tailwind CSS 3.4.7 |
-| **Maps** | Leaflet + React-Leaflet |
-| **Charts** | Recharts |
-| **Icons** | React Icons |
-| **API** | OpenWeatherMap |
+| Category | Technology | Badge |
+|----------|------------|-------|
+| **Framework** | React 18.3.1 | ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat-square&logo=react) |
+| **Language** | TypeScript 5.5.3 | ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6?style=flat-square&logo=typescript) |
+| **Build Tool** | Vite 5.4.0 | ![Vite](https://img.shields.io/badge/Vite-5.4.0-646CFF?style=flat-square&logo=vite) |
+| **Styling** | Tailwind CSS 3.4.7 | ![Tailwind](https://img.shields.io/badge/Tailwind-3.4.7-06B6D4?style=flat-square&logo=tailwindcss) |
+| **Maps** | Leaflet + React-Leaflet | ![Leaflet](https://img.shields.io/badge/Leaflet-1.9.4-199900?style=flat-square&logo=leaflet) |
+| **Charts** | Recharts | ![Recharts](https://img.shields.io/badge/Recharts-3.9.0-22B5BF?style=flat-square&logo=recharts) |
+| **Icons** | React Icons | ![React Icons](https://img.shields.io/badge/React_Icons-5.0.1-e91e63?style=flat-square&logo=react) |
+| **Animation** | Framer Motion | ![Framer](https://img.shields.io/badge/Framer_Motion-12.42.0-0055FF?style=flat-square&logo=framer) |
+| **API** | OpenWeatherMap | ![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-API-FF6B6B?style=flat-square&logo=openweathermap) |
 
 ---
 
