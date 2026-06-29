@@ -27,6 +27,10 @@
 
 <img align="right" width="200" height="250" alt="68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d3967624264396e6244724f5475314d71782f67697068792e676966" src="https://github.com/user-attachments/assets/0945b550-7a70-4550-8ba5-73b07bb69dd0" />
 
+<div style="display: inline-block; background: transparent; border-radius: 10px; overflow: hidden;">
+  <img align="right" width="200" height="250" alt="demo" src="https://github.com/user-attachments/assets/0945b550-7a70-4550-8ba5-73b07bb69dd0" />
+</div>
+
 ## 📖 About The Project
 
 **WeatherApp** is a modern, multilingual weather application built with **React** and **TypeScript**. It provides real-time weather information using the OpenWeatherMap API with a beautiful and responsive user interface.
