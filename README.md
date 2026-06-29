@@ -12,9 +12,9 @@
 ![Recharts](https://img.shields.io/badge/Recharts-3.9.0-22B5BF?style=flat-square&logo=recharts)
 ![Framer](https://img.shields.io/badge/Framer_Motion-12.42.0-0055FF?style=flat-square&logo=framer)
 
-</div>
-
 <img align="right" width="200" height="250" alt="68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d3967624264396e6244724f5475314d71782f67697068792e676966" src="https://github.com/user-attachments/assets/0945b550-7a70-4550-8ba5-73b07bb69dd0" />
+
+</div>
 
 ---
 <img width="954" height="916" alt="Screenshot 2026-06-30 003954" src="https://github.com/user-attachments/assets/0b2020ca-6601-4c96-a2b4-ac58c7bca9b5" />
