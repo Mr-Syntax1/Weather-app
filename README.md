@@ -1,32 +1,142 @@
-# React + TypeScript + Vite
+# 🌦️ WeatherApp - Professional Weather Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+![WeatherApp Banner](https://img.shields.io/badge/Weather-App-blue?style=for-the-badge&logo=react)
+![Version](https://img.shields.io/badge/version-1.0.0-green?style=flat-square)
+![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat-square&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6?style=flat-square&logo=typescript)
+![Tailwind](https://img.shields.io/badge/Tailwind-3.4.7-06B6D4?style=flat-square&logo=tailwindcss)
+![Vite](https://img.shields.io/badge/Vite-5.4.0-646CFF?style=flat-square&logo=vite)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+</div>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📖 About The Project
 
-## Expanding the Oxlint configuration
+**WeatherApp** is a modern, multilingual weather application built with **React** and **TypeScript**. It provides real-time weather information using the OpenWeatherMap API with a beautiful and responsive user interface.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+### ✨ Key Features
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+- 🌍 **Bilingual Support** (Persian & English)
+- 🌓 **Dark/Light Mode** with system preference detection
+- 📍 **Interactive Map** showing city location with Leaflet
+- 📊 **Temperature Chart** for 6-day forecast
+- 🎯 **Suggested Cities** for quick search
+- 📱 **Fully Responsive Design** for all devices
+- ⚡ **Blazing Fast** with Vite
+- 🎨 **Beautiful UI** with Tailwind CSS
+
+---
+
+## ⚠️ **Note: Get your API key from OpenWeatherMap.
+
+## 🛠️ Built With
+
+| Category | Technology |
+|----------|------------|
+| **Framework** | React 18.3.1 |
+| **Language** | TypeScript 5.5.3 |
+| **Build Tool** | Vite 5.4.0 |
+| **Styling** | Tailwind CSS 3.4.7 |
+| **Maps** | Leaflet + React-Leaflet |
+| **Charts** | Recharts |
+| **Icons** | React Icons |
+| **API** | OpenWeatherMap |
+
+---
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm, yarn, or pnpm
+
+### Installation
+
+# 1. Clone the repository
+
+```
+git clone https://github.com/Mr-Syntax1/Weather-app.git
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+# 2. Navigate to the project directory
+```
+cd Weather-app
+```
+
+# 3. Install dependencies
+```
+npm install
+```
+
+# 4. Run in development mode
+```
+npm run dev
+```
+
+# 5. Build for production
+```
+npm run build
+```
+
+# 6. Preview the built version
+```
+npm run preview
+```
+
+---
+
+## 📂 Project Structure
+```
+src/
+├── 📁 assets/ # Static images and assets
+├── 📁 components/ # React components
+│ ├── Error/ # Error messages
+│ ├── ForecastCard/ # Weather forecast cards
+│ ├── LanguageToggle/ # Language switch button
+│ ├── Layout/ # Header, Footer, Container
+│ ├── Loading/ # Loading spinner
+│ ├── Map/ # Interactive map
+│ ├── Search/ # Search bar
+│ ├── SuggestedCities/# City suggestions
+│ ├── TemperatureChart/# Temperature chart
+│ ├── ThemeToggle/ # Theme switch button
+│ └── Weather/ # Weather card & details
+├── 📁 contexts/ # Context API (Language, Theme)
+├── 📁 fonts/ # Persian & English fonts
+├── 📁 hooks/ # Custom Hooks (useWeather)
+├── 📁 locales/ # Translation files (fa, en)
+├── 📁 services/ # API requests
+├── 📁 types/ # TypeScript Interfaces
+├── 📁 utils/ # Helper functions
+├── App.tsx
+├── main.tsx
+└── index.css
+```
+
+
+---
+
+# 🤝 Contributing
+## Fork the repository
+
+### Create a Feature Branch 
+(```git checkout -b feature/AmazingFeature```)
+
+### Commit your changes 
+(```git commit -m 'Add some AmazingFeature```)
+
+### Push to the branch 
+(```git push origin feature/AmazingFeature```)
+
+### Open a Pull Request
+
+---
+
+<div align="center">
+⭐ Don't forget to star the project if you like it! ⭐
+</div> 
