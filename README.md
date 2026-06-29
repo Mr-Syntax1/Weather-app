@@ -4,10 +4,13 @@
 
 ![WeatherApp Banner](https://img.shields.io/badge/Weather-App-blue?style=for-the-badge&logo=react)
 ![Version](https://img.shields.io/badge/version-1.0.0-green?style=flat-square)
-![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat-square&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6?style=flat-square&logo=typescript)
-![Tailwind](https://img.shields.io/badge/Tailwind-3.4.7-06B6D4?style=flat-square&logo=tailwindcss)
-![Vite](https://img.shields.io/badge/Vite-5.4.0-646CFF?style=flat-square&logo=vite)
+![React](https://img.shields.io/badge/React-19.2.7-61DAFB?style=flat-square&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-6.0.2-3178C6?style=flat-square&logo=typescript)
+![Tailwind](https://img.shields.io/badge/Tailwind-3.4.19-06B6D4?style=flat-square&logo=tailwindcss)
+![Vite](https://img.shields.io/badge/Vite-8.1.0-646CFF?style=flat-square&logo=vite)
+![Leaflet](https://img.shields.io/badge/Leaflet-1.9.4-199900?style=flat-square&logo=leaflet)
+![Recharts](https://img.shields.io/badge/Recharts-3.9.0-22B5BF?style=flat-square&logo=recharts)
+![Framer](https://img.shields.io/badge/Framer_Motion-12.42.0-0055FF?style=flat-square&logo=framer)
 
 </div>
 
@@ -57,33 +60,33 @@
 
 ### Installation
 
-# 1. Clone the repository
+## 1. Clone the repository
 
 ```
 git clone https://github.com/Mr-Syntax1/Weather-app.git
 ```
 
-# 2. Navigate to the project directory
+## 2. Navigate to the project directory
 ```
 cd Weather-app
 ```
 
-# 3. Install dependencies
+## 3. Install dependencies
 ```
 npm install
 ```
 
-# 4. Run in development mode
+## 4. Run in development mode
 ```
 npm run dev
 ```
 
-# 5. Build for production
+## 5. Build for production
 ```
 npm run build
 ```
 
-# 6. Preview the built version
+## 6. Preview the built version
 ```
 npm run preview
 ```
@@ -125,13 +128,13 @@ src/
 ## Fork the repository
 
 ### Create a Feature Branch 
-(```git checkout -b feature/AmazingFeature```)
+``` git checkout -b feature/AmazingFeature ```
 
 ### Commit your changes 
-(```git commit -m 'Add some AmazingFeature```)
+``` git commit -m 'Add some AmazingFeature ```
 
 ### Push to the branch 
-(```git push origin feature/AmazingFeature```)
+``` git push origin feature/AmazingFeature ```
 
 ### Open a Pull Request
 
