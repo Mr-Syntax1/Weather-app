@@ -14,6 +14,12 @@
 
 </div>
 
+<div align="center">
+  <a href="https://weather-app-pro-2026.netlify.app/">
+    <img src="https://img.shields.io/badge/🌤️_See_Live_Demo-👉_weather--app--pro--2026.netlify.app-0A66C2?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo">
+  </a>
+</div>
+
 ---
 
 ## 📖 About The Project
