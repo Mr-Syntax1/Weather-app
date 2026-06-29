@@ -17,8 +17,10 @@
 ---
 
 <div align="center">
-<img width="630" alt="Screenshot" src="https://github.com/user-attachments/assets/0b2020ca-6601-4c96-a2b4-ac58c7bca9b5" />
+<img width="700" alt="Screenshot" src="https://github.com/user-attachments/assets/0b2020ca-6601-4c96-a2b4-ac58c7bca9b5" />
 </div>
+
+<br/>
 
 <div align="center">
   <a href="https://weather-app-pro-2026.netlify.app/">
