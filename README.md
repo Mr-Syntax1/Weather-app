@@ -14,7 +14,7 @@
 
 </div>
 
-<img align="right" width="382" height="480" alt="68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d3967624264396e6244724f5475314d71782f67697068792e676966" src="https://github.com/user-attachments/assets/0945b550-7a70-4550-8ba5-73b07bb69dd0" />
+<img align="right" width="200" height="250" alt="68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d3967624264396e6244724f5475314d71782f67697068792e676966" src="https://github.com/user-attachments/assets/0945b550-7a70-4550-8ba5-73b07bb69dd0" />
 
 ---
 <img width="954" height="916" alt="Screenshot 2026-06-30 003954" src="https://github.com/user-attachments/assets/0b2020ca-6601-4c96-a2b4-ac58c7bca9b5" />
