@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"  # ← این دستور build 
+  publish = "dist"            # ← خروجی Vite در پوشه dist هست
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200                # ← برای SPA روتینگ (React Router)
