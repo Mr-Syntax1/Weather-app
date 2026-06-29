@@ -1,0 +1,47 @@
+{
+    "app": {
+        "title": "🌤️ Weather App",
+        "searchPlaceholder": "Enter city name",
+        "searchButton": "Search",
+        "loading": "Loading...",
+        "chooseYourCity": "Select your desired city"
+    },
+    "weather": {
+        "feelsLike": "Feels Like",
+        "humidity": "Humidity",
+        "windSpeed": "Wind Speed",
+        "temperature": "Temperature",
+        "forecast": "6-Day Forecast",
+        "conditions": {
+            "clear sky": "Clear Sky",
+            "few clouds": "Few Clouds",
+            "scattered clouds": "Scattered Clouds",
+            "broken clouds": "Broken Clouds",
+            "shower rain": "Shower Rain",
+            "rain": "Rain",
+            "thunderstorm": "Thunderstorm",
+            "snow": "Snow",
+            "mist": "Mist",
+            "light rain": "Light Rain",
+            "moderate rain": "Moderate Rain",
+            "heavy rain": "Heavy Rain",
+            "overcast clouds": "Overcast Clouds",
+            "haze": "Haze",
+            "fog": "Fog",
+            "smoke": "Smoke",
+            "dust": "Dust",
+            "sand": "Sand",
+            "squall": "Squall",
+            "tornado": "Tornado"
+        }
+    },
+    "errors": {
+        "cityNotFound": "City not found",
+        "retry": "Try againg"
+    },
+    "footer": {
+        "leaflet": "Leaflet",
+        "openStreetMap": "OpenStreetMap contributors",
+        "designBy": "Designed by mr-syntax1"
+    }
+}

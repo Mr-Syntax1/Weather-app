@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: vazirmatn;
+    src: url('./fonts/Vazir-Medium.eot')format('eot'),
+        url('./fonts/Vazir-Medium.woff2') format('woff2'),
+        url('./fonts/Vazir-Medium.woff') format('woff'),
+        url('./fonts/Vazir-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Lalezar;
+    src: url('./fonts/Lalezar-Regular.otf')format('otf'),
+        url('./fonts/Lalezar-Regular.ttf')format('truetype'),
+}
+
+@layer base {
+    body {
+        @apply antialiased;
+    }
+}
+
+/* استایل‌های اسکرول */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-gray-200 dark:bg-gray-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-blue-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-blue-800;
+}

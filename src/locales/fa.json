@@ -1,0 +1,47 @@
+{
+    "app": {
+        "title": "🌤️ نمایش وضعیت هوا",
+        "searchPlaceholder": "نام شهر را وارد کنید",
+        "searchButton": "جستجو",
+        "loading": "در حال بارگذاری...",
+        "chooseYourCity": "شهر مورد نظرت رو انتخاب کن"
+    },
+    "weather": {
+        "feelsLike": "دمای احساسی",
+        "humidity": "رطوبت",
+        "windSpeed": "سرعت باد",
+        "temperature": "دما",
+        "forecast": "پیش‌بینی ۶ روزه",
+        "conditions": {
+            "clear sky": "آسمان صاف",
+            "few clouds": "کمی ابری",
+            "scattered clouds": "نیمه ابری",
+            "broken clouds": "ابری",
+            "shower rain": "باران ملایم",
+            "rain": "بارانی",
+            "thunderstorm": "طوفانی",
+            "snow": "برفی",
+            "mist": "مه‌آلود",
+            "light rain": "باران خفیف",
+            "moderate rain": "باران متوسط",
+            "heavy rain": "باران شدید",
+            "overcast clouds": "ابرهای تیره",
+            "haze": "غبارآلود",
+            "fog": "مه غلیظ",
+            "smoke": "دودآلود",
+            "dust": "گرد و غبار",
+            "sand": "شن و ماسه",
+            "squall": "توفان ناگهانی",
+            "tornado": "گردباد"
+        }
+    },
+    "errors": {
+        "cityNotFound": "شهر مورد نظر یافت نشد",
+        "retry": "دوباره تلاش کنید"
+    },
+    "footer": {
+        "leaflet": "نقشه",
+        "openStreetMap": "مشارکت‌کنندگان OpenStreetMap",
+        "designBy": "طراحی شده توسط mr-syntax1"
+    }
+}
